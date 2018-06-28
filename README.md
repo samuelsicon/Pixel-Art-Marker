@@ -1,3 +1,3 @@
 # Pixel-Art-Marker
 ALC Project
-[Link](https://samuelsicon.github.io/Pixel-Art-Marker/)
+Click [Here] (https://samuelsicon.github.io/Pixel-Art-Marker/) to see my link
