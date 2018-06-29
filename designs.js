@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //select input
-    let height, width, color;
+    const height, width, color;
     //Let user choose size of the grid
     $('#sizePicker').submit(function(event) {
       event.preventDefault();
