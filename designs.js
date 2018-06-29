@@ -20,6 +20,7 @@ $(document).ready(function () {
       }
       //Let user choose color
       $('td').click(function(event){
+        color = $('#colorPicker').val();  
         $( this ).css( "background-color", color );
       });
     }
