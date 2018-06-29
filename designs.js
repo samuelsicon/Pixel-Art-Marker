@@ -24,10 +24,7 @@ $(document).ready(function () {
         $( this ).css( "background-color", color );
       });
     }
-    //Let user select color
-    $('#colorPicker').change(function(event){
-      color = $('#colorPicker').val();
-    });
+    
 });
 
 
