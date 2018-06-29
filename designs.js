@@ -8,13 +8,13 @@ $(document).ready(function () {
       width = $('#inputWeight').val();
       makeGrid(height, width);
     });
-    //Make grid when user inputs size
-    function makeGrid(row, column) {
+     //Make grid when user inputs size
+    function makeGrid(x, y) {
       $('tbody').remove();
       $('#pixelCanvas').append('<tbody></tbody>');
-      for (let row = 1; row <= height; row++) {
+      for (let row = 1; row <= x; row++) {
         $('tbody').append('<tr></tr>');
-        for (let column = 1; column <= width; column++) {
+        for (let column = 1; column <= y; column++) {
           $('tr:last').append('<td></td>');
         }
       }
